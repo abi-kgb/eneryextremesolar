@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:beige;
+ 
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background:white;
+    color:black;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 80px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding-left: 80px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+
+}
+
+.contact-info {
+    background-color: rgb(175, 161, 161);
+    color: #fff;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 450px;
+  
+   
+   
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('hero1.avif') no-repeat center/cover;
+    color: #0b0b0b;
+    text-align: center;
+    padding: 100px;
+    height: 600px;
+
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+
+.cta-button {
+    background: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* about us */
+.about{
+    display:flex;
+    margin: 80px;
+}
+
+
+
+
+.services{
+    display: flex;
+    margin: 80px;
+}
+
+ .service-item img {
+    width: 50%;
+    
+    height: 50%;
+} 
+
+/* Testimonials Section */
+.testimonials {
+    background: rgb(175, 161, 161);
+    padding: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects {
+  
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-newsletter button {
+    padding: 10px 20px;
+    background: #f39c12;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
